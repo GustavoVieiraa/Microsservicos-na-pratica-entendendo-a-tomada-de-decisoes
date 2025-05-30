@@ -1,0 +1,7 @@
+Nesta aula, eu aprendi sobre a infraestrutura de microsserviços e a importância de cada um ter seu próprio banco de dados, evitando o compartilhamento. 
+O instrutor, Vinicius Dias, destacou a necessidade de garantir a disponibilidade dos serviços, sugerindo o uso de orquestradores de containers, 
+como Docker Swarm ou Kubernetes, e a implementação de múltiplas instâncias de serviços com balanceamento de carga.
+
+Ele também enfatizou que a infraestrutura de cada microsserviço deve ser independente, definida de acordo com suas necessidades específicas, 
+como a linguagem de programação e os softwares necessários. A prática de containerização foi apresentada como a solução ideal para gerenciar 
+essa infraestrutura, permitindo modificações rápidas e eficientes. A aula terminou com a expectativa de discutir mais sobre a independência dos microsserviços no próximo vídeo.

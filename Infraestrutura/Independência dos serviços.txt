@@ -1,0 +1,14 @@
+Nesta aula, eu aprendi sobre a independência dos microsserviços e como cada 
+um deles pode ter sua própria infraestrutura definida. 
+O instrutor falou sobre a importância de utilizar containers, como o Docker, 
+para garantir que cada microsserviço tenha todas as 
+dependências necessárias para funcionar de forma autônoma.
+
+Ele deu exemplos práticos, como o serviço de marketing que utiliza Node e possui sua própria API, 
+banco de dados Mongo e mensageria com RabbitMQ. 
+Também foi mencionado o serviço financeiro, que requer extensões 
+específicas do PHP e um Dockerfile para configurar essas dependências.
+
+Eu entendi que cada microsserviço deve ser capaz de ser levantado de forma independente, 
+utilizando um arquivo docker-compose.yml, e que isso está alinhado com os princípios do 
+twelve factor apps, que visa simplificar a exposição dos serviços.
